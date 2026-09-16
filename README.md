@@ -6,6 +6,8 @@
 
 Oyuncunun, karakterinde bulunan sürekli bir durumu göstermesi için yapılan bir plugindir.
 
+SCP:SL 14.2.7, LabAPI 1.1.7
+
 ### Kurulum
 
 1. PlayerStatus.dll dosyasını `...\LabAPI\plugins\<port>\` klasörüne at.
