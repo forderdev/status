@@ -2,30 +2,30 @@
 
 #### İşte böyle.
 
-![](https://i.imgur.com/rKROWnv.gif)
+!\[](https://i.imgur.com/rKROWnv.gif)
 
 Oyuncunun, karakterinde bulunan sürekli bir durumu göstermesi için yapılan bir plugindir.
 
 ### Kurulum
 
-1. `dll\PlayerStatus.dll` dosyasını `%AppData%\SCP Secret Laboratory\LabAPI\plugins\<port>\` klasörüne at.
-2. Sunucuyu başlat. Configin oluşma klasörü: `%AppData%\SCP Secret Laboratory\LabAPI\configs\<port>\PlayerStatus\config.yml`
+1. PlayerStatus.dll dosyasını `...\LabAPI\plugins\<port>\` klasörüne at.
+2. Sunucuyu başlat. Config'in oluşma klasörü: `...\LabAPI\configs\<port>\PlayerStatus\config.yml`
 
 ### Kullanım (Komutlar):
 
-`.status <text>` ya da `.durum <text>` ; durumunu değiştirir.
+.status <text> ya da .durum <text> ; durumunu değiştirir.
 
-`.status sil` ; (kaldır, temizle, clear vs.) durumunu siler.
+.status sil ; (kaldır, temizle, clear vs. de olur.) durumunu siler.
 
-`.status` ; Mevcut durumunu gösterir
+.status ; Mevcut durumunu gösterir
 
 ### Admin Komutları:
 
-`playerstatus list`
+playerstatus list
 
-`playerstatus clear <oyuncular|all>`
+playerstatus clear <oyuncular|all>
 
-`playerstatus set <oyuncu> <metin>`
+playerstatus set <oyuncu> <metin>
 
 ## Config
 
@@ -52,7 +52,7 @@ Varsayılan configlere geri dönmek istiyorsan config dosyasını silmeniz gerek
 dotnet build source\PlayerStatus.csproj -c Release
 ```
 
-`lib\` klasörü repoda bulunmuyor. Plugini derlemek için sunucunun `SCPSL_Data\Managed` klasöründen şu dll'leri `lib\` içine kopyala:
+lib\ klasörünü repoya yükleyemiyorum maalesef. Plugini derlemek için sunucunun SCPSL_Data\Managed klasöründen aşağıdaki dll'leri lib\ içine kopyalaman gerekli.
 
 ```
 Assembly-CSharp.dll
@@ -74,7 +74,7 @@ UnityEngine.PhysicsModule.dll
 
 #### Like this.
 
-![](https://i.imgur.com/rKROWnv.gif)
+!\[](https://i.imgur.com/rKROWnv.gif)
 
 This plugin allows players to display a persistent status message on their character.
 
@@ -116,8 +116,6 @@ This plugin allows players to display a persistent status message on their chara
 
 If you want to restore the default configuration values, simply delete the config file. The default settings will be regenerated automatically afterward.
 
-*(The table and the translation was made by AI.)*
-
 ### Build
 
 ```
@@ -139,3 +137,4 @@ UnityEngine.dll
 UnityEngine.CoreModule.dll
 UnityEngine.PhysicsModule.dll
 ```
+*(The table and the translation was made by AI.)*
