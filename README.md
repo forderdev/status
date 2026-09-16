@@ -2,7 +2,7 @@
 
 #### İşte böyle.
 
-!\[](https://i.imgur.com/rKROWnv.gif)
+!\[](https://i.imgur.com/wGxkIkU.gif)
 
 Oyuncunun, karakterinde bulunan sürekli bir durumu göstermesi için yapılan bir plugindir.
 
@@ -76,7 +76,7 @@ UnityEngine.PhysicsModule.dll
 
 #### Like this.
 
-!\[](https://i.imgur.com/rKROWnv.gif)
+!\[](https://i.imgur.com/wGxkIkU.gif)
 
 This plugin allows players to display a persistent status message on their character.
 
